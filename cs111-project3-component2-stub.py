@@ -30,7 +30,7 @@ def playGameOfSlots(name):
     # The game should have a variable to track the number of attempts.
 
 
-    # Set a boolean variable to indicate that the player has not one yet
+    # Set a boolean variable to indicate that the player has not won yet
 
     
     # The game will continue while the number of attempts is less than 5
