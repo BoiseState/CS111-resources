@@ -2,7 +2,7 @@
 # Date:  
 # Description:  Jackpot Challenge - Component Two - Slots Game
 
-# Import required libraries
+# Step 1: Import required libraries
 
 
 #
@@ -23,39 +23,39 @@ def playGameOfSlots(name):
     # https://unicode-table.com/en
     symbolList = [u"\u2762",u"\u2600", u"\u2605", u"\u2602", u"\u265E", u"\u262F", u"\u262D", u"\u2622",u"\u260E", u"\u221E", u"\u2744", u"\u266B"]
     
-    # The game should begin by displaying a welcome message including the
+    # Step 2: The game should begin by displaying a welcome message including the
     #    name of the game (Slots) and the player’s name.
 
 
-    # The game should have a variable to track the number of attempts.
+    # Step 3: The game should have a variable to track the number of attempts.
 
 
-    # Set a boolean variable to indicate that the player has not won yet
+    # Step 4: Set a boolean variable to indicate that the player has not won yet
 
     
-    # The game will continue while the number of attempts is less than 5
+    # Step 5: The game will continue while the number of attempts is less than 5
     #    and the player hasn’t won.
     while attempts < 5 and playerHasWon == False:
-        # Print the number of attempts
+        # Step 6: Print the number of attempts
 
 
-        # Prompt the player to “Press Enter to pull the handle”
+        # Step 7: Prompt the player to “Press Enter to pull the handle”
 
 
-        # Randomly select three values from a List containing game symbols
+        # Step 8: Randomly select three values from a List containing game symbols
 
 
-        # Print the selected symbols on a single line with several spaces
+        # Step 9: Print the selected symbols on a single line with several spaces
         #   between each character
 
 
-        # If all three symbols match, the player has won
+        # Step 10: If all three symbols match, the player has won
 
 
-        # Increment the number of attempts
+        # Step 11: Increment the number of attempts
 
 
-    # Return whether the player has won
+    # Step 12: Return whether the player has won
    
 
 
