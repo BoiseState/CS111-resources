@@ -18,6 +18,7 @@
 #   True - Player Wins
 #   False - Player Loses
 def playGameOfSlots(name):
+
     # Create List of Game Symbols (unicode characters)
     # Actual slot machines have 20 symbols per wheel
     # https://unicode-table.com/en
@@ -27,10 +28,12 @@ def playGameOfSlots(name):
     #    name of the game (Slots) and the player’s name.
 
 
-    # Step 3: The game should have a variable to track the number of attempts.
+    # Step 3: Declare an integer variable called attempts to track the number of attempts.  
+    #    What should the initial value be?
 
 
-    # Step 4: Set a boolean variable to indicate that the player has not won yet
+    # Step 4: Declare a boolean variable called playerHasWon and set it to false to 
+    #    indicate that the player has not won yet
 
     
     # Step 5: The game will continue while the number of attempts is less than 5
