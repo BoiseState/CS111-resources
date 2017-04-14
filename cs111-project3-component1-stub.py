@@ -20,24 +20,24 @@
 def playGameOfDice(name): 
 
     # The game should begin by displaying a welcome message including the
-    #    name of the game (Dice) and the player’s name.
+    #    name of the game (Dice) and the players name.
 
 
     # The game should have a variable for tracking the player's score
     #    and a variable for tracking the house's score
 
     
-    # The game will continue while the player’s score is less than 5
-    #    and the house’s score is less than 5.
+    # The game will continue while the players score is less than 5
+    #    and the houses score is less than 5.
 
         
         # Print the current scores
         
-        # Prompt the player to “Press Enter to roll”
+        # Prompt the player to Press Enter to roll
 
-        # Randomly generate integer value for player’s roll
+        # Randomly generate integer value for players roll
 
-        # Randomly generate integer value for house’s roll
+        # Randomly generate integer value for houses roll
 
         # Compare results, print winner message, including name
         #    and increment the score of the winner

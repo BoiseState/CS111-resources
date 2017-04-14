@@ -25,7 +25,7 @@ def playGameOfSlots(name):
     symbolList = [u"\u2762",u"\u2600", u"\u2605", u"\u2602", u"\u265E", u"\u262F", u"\u262D", u"\u2622",u"\u260E", u"\u221E", u"\u2744", u"\u266B"]
     
     # Step 2: The game should begin by displaying a welcome message including the
-    #    name of the game (Slots) and the player’s name.
+    #    name of the game (Slots) and the players name.
 
 
     # Step 3: Declare an integer variable called attempts to track the number of attempts.  
@@ -37,12 +37,12 @@ def playGameOfSlots(name):
 
     
     # Step 5: The game will continue while the number of attempts is less than 5
-    #    and the player hasn’t won.
+    #    and the player hasnt won.
     while attempts < 5 and playerHasWon == False:
         # Step 6: Print the number of attempts
 
 
-        # Step 7: Prompt the player to “Press Enter to pull the handle”
+        # Step 7: Prompt the player to Press Enter to pull the handle
 
 
         # Step 8: Randomly select three values from a List containing game symbols
