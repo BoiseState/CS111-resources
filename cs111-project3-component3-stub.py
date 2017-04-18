@@ -53,18 +53,18 @@ def playGameOfBlackjack(name):
 
 
     # Step 7:  Use a while loop that will check the point total in the dealer's hand.
-    #    If the points in the dealer's hand are less than 17, the dealter must draw an additional
+    #    If the points in the dealer's hand are less than 17, the dealer must draw an additional
     #    card.  If the dealer has 17 or more points, the dealer stands.  The loop ends when the 
     #    dealer stands or if the points in the dealer's hand exceeds 21 (busts).
 
-        # Step 7.1:  Print the current point value of the dealerss hand
+        # Step 7.1:  Print the current point value of the dealers hand
 
 
         # Step 7.2:  If current point value in hand is < 17, 
         #   randomly generate an integer value for the houses draw.
 
             
-        # Step 7.3:  If dealer busts, print dealer loses message and return False
+        # Step 7.3:  If dealer busts, print dealer loses message and return True
 
 
     # Step 8:  Compare the player's and dealer's hands, if player's hand is > houses hand and <= 21
