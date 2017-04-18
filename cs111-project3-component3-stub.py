@@ -62,6 +62,7 @@ def playGameOfBlackjack(name):
 
         # Step 7.2:  If current point value in hand is < 17, 
         #   randomly generate an integer value for the houses draw.
+        #   Otherwise, the dealer stands.
 
             
         # Step 7.3:  If dealer busts, print dealer loses message and return True
