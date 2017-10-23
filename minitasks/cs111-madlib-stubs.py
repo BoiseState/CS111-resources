@@ -10,16 +10,6 @@
 #  exclamation  - http://examples.yourdictionary.com/examples-of-interjections.html
 
 import random
-
-#
-# Define CONSTANT List variables for each category
-#
-ADJ_LIST = []
-NOUN_LIST = []
-ADVERB_LIST = []
-EXCLAMATION_LIST = []
-
-                
                
 #
 # This function is an implementation of the <REPLACE WITH MADLIB NAME> Madlib.
@@ -28,6 +18,23 @@ EXCLAMATION_LIST = []
 # Return
 # This function will return a String containing the new Madlib
 def generateMadlib():
+    # Step 1. Define List variables for each category in your Madlib.  
+    #    Add additional lists as necessary.
+    ADJ_LIST = []
+    NOUN_LIST = []
+    ADVERB_LIST = []
+    EXCLAMATION_LIST = []
+
+    # Setup the output string that will contain the Madlib
+    output = ""
+
+    # Step 2. Write your Madlib below using String concatination and the random.choice() function
+    output += "Use String concatination to write your madlib.\n"
+    output += "Replace these lines with your Madlib"
+
+
+    # Return generated Madlib
+    return output
 
 
 
