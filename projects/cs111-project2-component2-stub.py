@@ -1,6 +1,6 @@
 # Author:  
 # Date:  
-# Description:  Jackpot Challenge - Component Two - Slots Game
+# Description:  Retro Arcade - Component Two - Slots Game
 
 # Step 1: Import required libraries
 
@@ -21,8 +21,7 @@ def playGameOfSlots(name):
 
     # Create List of Game Symbols (unicode characters)
     # Actual slot machines have 20 symbols per wheel
-    # https://unicode-table.com/en
-    symbolList = [u"\u2762",u"\u2600", u"\u2605", u"\u2602", u"\u265E", u"\u262F", u"\u262D", u"\u2622",u"\u260E", u"\u221E", u"\u2744", u"\u266B"]
+    symbolList = ["Cherry", "Lemon", "Seven", "Diamond", "Heart"]
     
     # Step 2: The game should begin by displaying a welcome message including the
     #    name of the game (Slots) and the players name.
@@ -38,29 +37,32 @@ def playGameOfSlots(name):
     
     # Step 5: The game will continue while the number of attempts is less than 5
     #    and the player hasnt won.
-    while attempts < 5 and playerHasWon == False:
-        # Step 6: Print the number of attempts
+
+
+        # Step 6: Print the number of attempts remaining for the player
 
 
         # Step 7: Prompt the player to Press Enter to pull the handle
 
 
-        # Step 8: Randomly select three values from a List containing game symbols
+        # Step 8: Randomly select three symbols from a List containing game symbols
+        #       and store each to a variable
 
 
         # Step 9: Print the selected symbols on a single line with several spaces
         #   between each character
 
 
-        # Step 10: If all three symbols match, the player has won
+        # Step 10: Check if all three symbols match, set the player has won flag to True
 
 
         # Step 11: Increment the number of attempts
 
 
     # Step 12: Return whether the player has won
-   
 
+
+   
 
 ######################################################################
 # The code below this comment is what runs the program.  Please      #
@@ -79,7 +81,7 @@ playerWins = playGameOfSlots(playerName)
 if playerWins == True:
     winnerString = "*  " + playerName + " Wins!  *"
 else:
-    winnerString = "*  House Wins!  *"
+    winnerString = "*  Computer Wins!  *"
     
 starBorder = "*" * len(winnerString)
 print(starBorder)

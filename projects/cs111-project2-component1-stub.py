@@ -1,14 +1,14 @@
 # Author:  
 # Date:  
-# Description:  Jackpot Challenge - Component One - Dice Game
+# Description:  Retro Arcade - Component One - Dice Game
 
 
-# Import required libraries
+# Step 1. Import required libraries
 
 
 #
-# This game is player vs house where each take turns rolling a single six-sided
-#    die.  The player with the highest roll each round wins a point.  The house
+# This game is player vs computer where each take turns rolling a single six-sided
+#    die.  The player with the highest roll each round wins a point.  The computer
 #    receives the point for a tie.  The first player to 5 points wins.
 #
 # Parameters
@@ -19,33 +19,39 @@
 #   False - Player Loses
 def playGameOfDice(name): 
 
-    # The game should begin by displaying a welcome message including the
+    # Step 2. The game should begin by displaying a welcome message including the
     #    name of the game (Dice) and the players name.
 
 
-    # The game should have a variable for tracking the player's score
-    #    and a variable for tracking the house's score
+    # Step 3. The game should have a variable for tracking the player's score
+    #    and a variable for tracking the computer's score and both should
+    #    be initialized to zero.
 
     
-    # The game will continue while the players score is less than 5
-    #    and the houses score is less than 5.
+    # Step 4. The game will continue while the player's score is less than 5
+    #    and the computer's score is less than 5.
 
         
-        # Print the current scores
+        # Step 5. Display the current scores
+
         
-        # Prompt the player to Press Enter to roll
+        # Step 6. Prompt the player to Press Enter to roll
 
-        # Randomly generate integer value for players roll
 
-        # Randomly generate integer value for houses roll
+        # Step 7. Randomly generate integer value for players roll
 
-        # Compare results, print winner message, including name
+
+        # Step 8. Randomly generate integer value for computers roll
+
+
+        # Step 9. Compare results, print winner message, including name
         #    and increment the score of the winner
 
 
-    # If the player score is greater than the house score, the player Wins so return True.
-    #    Otherwise, return false.
-            
+    # Step 10. If the player score is greater than the computer score, the player Wins so return True.
+    #     Otherwise, return false.
+
+          
 
 ######################################################################
 # The code below this comment is what runs the program.  Please      #
@@ -64,7 +70,7 @@ playerWins = playGameOfDice(playerName)
 if playerWins == True:
     winnerString = "*  " + playerName + " Wins!  *"
 else:
-    winnerString = "*  House Wins!  *"
+    winnerString = "*  computer Wins!  *"
     
 starBorder = "*" * len(winnerString)
 print(starBorder)
@@ -74,3 +80,4 @@ print(starBorder)
     
 
     
+ 
