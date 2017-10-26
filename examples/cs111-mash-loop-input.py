@@ -77,12 +77,12 @@ while playAgain == True:
     #
     # Prompt user for name
     #
-    name = raw_input("Please enter your name: ")
+    name = input("Please enter your name: ")
 
     #
     # Prompt user for gender of spouse
     #
-    preferredGenderOfSpouse = raw_input("Please enter the preferred gender of your spouse (male/female): ")
+    preferredGenderOfSpouse = input("Please enter the preferred gender of your spouse (male/female): ")
     
 
     # Sanitize user input by converting to lowercase.
@@ -107,7 +107,7 @@ while playAgain == True:
     # Play it again?
     #
     playAgain = False
-    response = raw_input("Play again (Y/N): ")
+    response = input("Play again (Y/N): ")
     if response.lower() == "y":
         playAgain = True
     
