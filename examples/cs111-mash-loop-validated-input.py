@@ -77,7 +77,7 @@ while playAgain == True:
     #
     # Prompt user for player name
     #
-    name = raw_input("Please enter your name: ")
+    name = input("Please enter your name: ")
 
     #
     # Prompt user for gender of spouse and loop until
@@ -85,7 +85,7 @@ while playAgain == True:
     #
     validResponse = False
     while validResponse == False:
-        genderResponse = raw_input("Please enter the preferred gender of your spouse (male/female): ")
+        genderResponse = input("Please enter the preferred gender of your spouse (male/female): ")
 
         if genderResponse.lower() == "male":
             preferredGenderOfSpouse = "male"
@@ -116,7 +116,7 @@ while playAgain == True:
     #
     validResponse = False
     while validResponse == False:
-        response = raw_input("Play again (Y/N): ")
+        response = input("Play again (Y/N): ")
         if response.lower() == "y":
             playAgain = True
             validResponse = True
