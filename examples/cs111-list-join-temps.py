@@ -17,7 +17,7 @@ print(highTempStringList)
 
 # Use the join() function to create a string to high temp values,
 #    delimited by "->"
-output = "->".join(highTempStringList)
+output = " -> ".join(highTempStringList)
 
 # Display the list
 print(output)
