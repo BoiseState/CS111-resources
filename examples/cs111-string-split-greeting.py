@@ -4,12 +4,6 @@
 # Description:  Inclass example on string splitting
 #
 
-
-#
-# Example 1
-#
-
-
 # Create a string variable
 greeting = "How are you this morning?"
 
@@ -20,15 +14,3 @@ greetingWordList = greeting.split()
 # Display the list
 print (greetingWordList)
 
-#
-# Example 2
-#
-
-# Create a Comma Delimited String (csv)
-quizScores = "70,83,91,43,75"
-
-# Split the string based upon the "," character
-quizScoresList = quizScores.split(",")
-
-# Display the list
-print(quizScoresList)
