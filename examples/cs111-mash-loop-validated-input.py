@@ -44,7 +44,7 @@ def getFuture(playerName,spouseGender):
     firstHome = random.choice(HOME_LIST)
     secondHome = random.choice(HOME_LIST)
     
-    if (spouseGender == "FEMALE"):
+    if (spouseGender == "female"):
         spouse = random.choice(FEMALE_SPOUSE_LIST)
     else:
         spouse = random.choice(MALE_SPOUSE_LIST)
