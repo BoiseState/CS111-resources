@@ -9,16 +9,15 @@
 #    with each line added as a separate String item in the list
 #	
 # Parameter
-#   inputfile - A String with the name of a text file to convert to a List
+#   inputfile - A String with the name of a text file to convert to a Lit
 #
 # Return
 #   A List containing each line from the text file
 def getListFromFile (inputFile):
 	outputList = []
 	try:
-		source = open(inputFile)
-		for line in source.readlines():
-			outputList.append(line)
+		source = open(inputFile,"r")
+		outputList =  source.readlines()
 		source.close()
 	except FileNotFoundError:
 		print("Unable to open input file: " + inputFile)
