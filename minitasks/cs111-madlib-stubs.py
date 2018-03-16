@@ -28,8 +28,8 @@ def generateMadlib():
     # Setup the output string that will contain the Madlib
     output = ""
 
-    # Step 2. Write your Madlib below using String concatination and the random.choice() function
-    output += "Use String concatination to write your madlib.\n"
+    # Step 2. Write your Madlib below using String concatenation and the random.choice() function
+    output += "Use String concatenation to write your madlib.\n"
     output += "Replace these lines with your Madlib"
 
 
