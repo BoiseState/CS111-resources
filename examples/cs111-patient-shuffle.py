@@ -12,6 +12,6 @@ patientList = ["Darth Vader", "Luke Skywalker", "Han Solo", "Leia Organa", "Jyn 
 random.shuffle(patientList)
 
 # Print the speaking order
-print("Patients with speak in the following order:")
+print("Patients will speak in the following order:")
 for patient in patientList:
     print("  - " + patient)
