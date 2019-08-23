@@ -22,7 +22,7 @@ import random
 def createMadlib(name):
 
     # Step 3: The game should begin by displaying a welcome message including the
-    #    name of the game (Slots) and the players name.
+    #    name of the game (Madlib) and the players name.
 
 
     # Step 4: Prompt the player to Press Enter to generate the Madlib
