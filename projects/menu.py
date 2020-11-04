@@ -4,16 +4,9 @@
 
 # Step 1: Import required libraries
 import random
-from adventure import create_adventure
-from dice_game import play_dice_game
-from slots import play_slots_game
-# Step 2:  Copy the playGameOfDice() function from Component 1 and paste it here
-
-
-# Step 3:  Copy the playGameOfSlots() function from Component 2 and paste it here
-
-
-# Step 4:  Copy both the generateMadlib() and createMadlib() functions from Component 3 and paste them here
+from .adventure import create_adventure
+from .dice_game import play_dice_game
+from .slots import play_slots_game
 
 def display_winner(name):
     """
@@ -31,7 +24,11 @@ def display_winner(name):
     print(message)
     print(star_border)
 
-
+def retro_arcade(name):
+    play_dice_game(name)
+    play_slots_game(name)
+    create_adventure(name)
+    pass
 #
 # Primary Game Loop and Selection Menu
 #
@@ -81,9 +78,7 @@ def display_winner(name):
 
 if __name__ == "__main__":
     name = input("what is your name? ")
-    play_dice_game(name)
-    play_slots_game(name)
-    create_adventure(name)
+    retro_arcade(name)
 
 
 
