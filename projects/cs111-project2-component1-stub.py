@@ -17,8 +17,8 @@
 # Returns
 #   True - Player Wins
 #   False - Player Loses
-def playGameOfDice(name): 
-
+def play_dice_game(name): 
+    return False
     # Step 2. The game should begin by displaying a welcome message including the
     #    name of the game (Dice) and the players name.
 
@@ -61,21 +61,21 @@ def playGameOfDice(name):
 ######################################################################
         
 # Setup a default player
-playerName = "Bob"
+player_name = "Bob"
 
 # Call the function and store the result
-playerWins = playGameOfDice(playerName)
+player_won = play_dice_game(player_name)
 
 # Display the winner!
-if playerWins == True:
-    winnerString = "*  " + playerName + " Wins!  *"
+if player_won:
+    winner_message = f"*  {player_name}  Wins!  *"
 else:
-    winnerString = "*  computer Wins!  *"
+    winner_message = "*  computer Wins!  *"
     
-starBorder = "*" * len(winnerString)
-print(starBorder)
-print(winnerString)
-print(starBorder)
+star_border = "*" * len(winner_message)
+print(star_border)
+print(winner_message)
+print(star_border)
     
     
 
