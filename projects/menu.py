@@ -4,9 +4,9 @@
 
 # Step 1: Import required libraries
 import random
-from .adventure import create_adventure
-from .dice_game import play_dice_game
-from .slots import play_slots_game
+from adventure import create_adventure
+from dice_game import play_dice_game
+from slots import play_slots_game
 
 def display_winner(name):
     """
@@ -74,7 +74,6 @@ def retro_arcade(name):
    
 
 # Step 9: Game Over. Print a nice message thanking the user for playing.
-
 
 if __name__ == "__main__":
     name = input("what is your name? ")
