@@ -7,7 +7,7 @@ groceryList = []
 
 # Shopping list loop
 done = False
-while done == False:
+while not done:
     # Prompt the user for an item to add to the list
     item = input("Please enter an item or done when finished: ")
 
