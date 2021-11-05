@@ -1,0 +1,17 @@
+Manual test of generate Name
+Enter number between 0 and 5: Enter another number between 0 and 5: Name generated: Red Tiger
+
+
+Running automated input
+Enter number between 0 and 5: Enter another number between 0 and 5: 
+Should have generated Red Aardvark; Got Red Aardvark
+
+Enter number between 0 and 5: Enter another number between 0 and 5: 
+Should have generated Aqua Bear; Got Aqua Bear
+
+Enter number between 0 and 5: Enter another number between 0 and 5: 
+Should have generated Rose Bat; Got Rose Bat
+
+Enter number between 0 and 5: Enter another number between 0 and 5: Enter number between 0 and 5: Enter another number between 0 and 5: Enter number between 0 and 5: Enter another number between 0 and 5: 
+Should have generated Purple Tiger; Got Purple Tiger
+
