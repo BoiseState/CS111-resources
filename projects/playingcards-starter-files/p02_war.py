@@ -36,8 +36,8 @@ def war(name, numCards):
         #          "[name] wins!" where [name] is replaced with the player's name
 
 
-        # Else if the player loses, remove one card from the player's hand and print "Computer wins!"
-
+        # Else if the player loses, remove two cards from the player's hand and print "Computer wins!"
+        #  Remember to check how many cards the player has -- if they have less than two cards, they just lose all their cards and now have zero (not -1 cards!)
     
         # Otherwise, it's a draw (the cards are equal), no cards are earned or lost and print "It's a draw..."
 
@@ -73,7 +73,7 @@ random.seed(100)
 print("Playing war!\n")
 
 # Starting hand
-cards = 3
+cards = 7
 name = "Purple Koala"
 
 # Play war
