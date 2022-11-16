@@ -63,7 +63,9 @@ questionList = ["Dinos,500,My existence has been debated but I have very long ne
 
 # Split singleQuestionCSV using a comma as a delimiter and store the result in a new list
 
-# Print the information, one part per line.  Label each part.
+# Use the constants at the top of the file to access the pieces of the question.
+# Print the information, one part per line.
+# Label each part when you print it.
 
 ### End Step One ###
 
