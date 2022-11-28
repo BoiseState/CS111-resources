@@ -1,0 +1,108 @@
+Today's categories are THE MOVIES, THE AMERICAN REVOLUTION, and MIDDLE NAMES
+
+Current winnings: $0
+Q0($300) Q1($800) Q2($400) 
+Q3($600) Q4($100) Q5($200) 
+Q6($200) Q7($800) Q8($400) 
+
+Choose a question: 4
+
+Category is ... THE MOVIES
+"In 1941 this movie studio gave us ""Dumbo""; in 1995 it released ""Operation Dumbo Drop""": disney
+Right!
+
+Current winnings: $100
+Q0($300) Q1($800) Q2($400) 
+Q3($600) Q4($____) Q5($200) 
+Q6($200) Q7($800) Q8($400) 
+
+Choose a question: 4
+That choice is invalid. Try again.
+Choose a question: -3
+That choice is invalid. Try again.
+Choose a question: 9
+That choice is invalid. Try again.
+Choose a question: 2
+
+Category is ... MIDDLE NAMES
+Middle name of songwriter James McCartney: stuart
+That's incorrect.  Correct answer is Paul
+
+Current winnings: $100
+Q0($300) Q1($800) Q2($____) 
+Q3($600) Q4($____) Q5($200) 
+Q6($200) Q7($800) Q8($400) 
+
+Choose a question: 8
+
+Category is ... MIDDLE NAMES
+U.S. Steel founder John Morgan: pierpont
+Right!
+
+Current winnings: $500
+Q0($300) Q1($800) Q2($____) 
+Q3($600) Q4($____) Q5($200) 
+Q6($200) Q7($800) Q8($____) 
+
+Choose a question: 0
+
+Category is ... THE MOVIES
+Kurt Russell & William Baldwin played bickering firefighting brothers in this 1991 Ron Howard film: backdraft
+Right!
+
+Current winnings: $800
+Q0($____) Q1($800) Q2($____) 
+Q3($600) Q4($____) Q5($200) 
+Q6($200) Q7($800) Q8($____) 
+
+Choose a question: 1
+
+Category is ... MIDDLE NAMES
+Abolitionist William Garrison: henry
+That's incorrect.  Correct answer is Lloyd
+
+Current winnings: $800
+Q0($____) Q1($____) Q2($____) 
+Q3($600) Q4($____) Q5($200) 
+Q6($200) Q7($800) Q8($____) 
+
+Choose a question: 7
+
+Category is ... MIDDLE NAMES
+Colin Powell & a slain civil rights leader share this middle name: luther
+Right!
+
+Current winnings: $1600
+Q0($____) Q1($____) Q2($____) 
+Q3($600) Q4($____) Q5($200) 
+Q6($200) Q7($____) Q8($____) 
+
+Choose a question: 3
+
+Category is ... MIDDLE NAMES
+"Saintly middle name of ""Exorcist"" author William Blatty": peter
+Right!
+
+Current winnings: $2200
+Q0($____) Q1($____) Q2($____) 
+Q3($____) Q4($____) Q5($200) 
+Q6($200) Q7($____) Q8($____) 
+
+Choose a question: 5
+
+Category is ... THE AMERICAN REVOLUTION
+In July 1778 a fleet commanded by Admiral Charles D'Estaing reached America from the country: france
+Right!
+
+Current winnings: $2400
+Q0($____) Q1($____) Q2($____) 
+Q3($____) Q4($____) Q5($____) 
+Q6($200) Q7($____) Q8($____) 
+
+Choose a question: 6
+
+Category is ... MIDDLE NAMES
+Middle name of baseball pitcher Lynn Ryan Jr.: paul
+That's incorrect.  Correct answer is Nolan
+Game over! You won $2400
+krodgers@DESKTOP-K2U5LJ1:/mnt/c/Users/Kathryn/GitRepos/myBSU/CS111/Projects/Project03_Jeopardy_Fall2022$ 
