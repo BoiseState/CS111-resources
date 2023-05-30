@@ -24,9 +24,6 @@ ANSWER = 3
 # Return
 #   String containing the specified part of the question
 def getInfo(question, whichInfo):
-    ### Step Two ###
-    # Implement this function #
-    ### End Step Two ###
     return ""
 
 
@@ -71,6 +68,10 @@ questionList = ["Dinos,500,My existence has been debated but I have very long ne
 # Label each part when you print it.
 
 ### End Step One ###
+
+### Step Two ###
+# Implement getInfo function above #
+### End Step Two ###
 
 
 ### Step Three ###
