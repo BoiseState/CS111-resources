@@ -24,6 +24,9 @@ ANSWER = 3
 # Return
 #   String containing the specified part of the question
 def getInfo(question, whichInfo):
+    ### Step Two ###
+    # Implement this function #
+    ### End Step Two ###
     return ""
 
 
